@@ -1,0 +1,46 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\parindent 	0mm
+
+\setlength{\topmargin}{-1.75cm}
+\setlength{\oddsidemargin}{-0.25cm}
+\setlength{\evensidemargin}{-0.25cm}
+\setlength{\textheight}{24.5cm}
+\setlength{\textwidth}{16.5cm}
+\setlength{\parindent}{0.cm}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% ボールドイタリックにするコマンド
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newcommand{\bm}[1]{\mbox{\boldmath \it $#1$}}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% 図表見出しの変更（\small \bf に）
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\long\def\@makecaption#1#2{%
+ \vskip 5pt 
+ \setbox\@tempboxa\hbox{{\bf #1}\hspace{1zw}#2}
+ \ifdim \wd\@tempboxa >\hsize 
+ %%\unhbox\@tempboxa\par
+ \hbox to \hsize{\hfil\small{\bf #1}\hspace{1zw}%%
+    \parbox[t]{0.75\hsize}{#2}\hfil}%%図説の頭をインデントする
+  \else \hbox to\hsize{\hfil\box\@tempboxa\hfil} 
+ \fi}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%equarray 微修正（）
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\def\eqnarray{%%
+ \stepcounter{equation}%%
+ \let\@currentlabel=\theequation
+ \global\@eqnswtrue
+ \global\@eqcnt\z@
+ \tabskip\@centering
+ \let\\=\@eqncr
+ $$\halign to \displaywidth\bgroup\@eqnsel\hskip\@centering
+ $\displaystyle\tabskip\z@{##}$&\global\@eqcnt\@ne 
+ %%\hskip 2\arraycolsep 
+ \hfil$\displaystyle{{}##{}}$\hfil
+ &\global\@eqcnt\tw@ $\displaystyle\tabskip\z@{##}$\hfil 
+ \tabskip\@centering&\llap{##}\tabskip\z@\cr}

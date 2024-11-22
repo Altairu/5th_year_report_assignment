@@ -1,0 +1,303 @@
+%%% 校内提出レポート用スタイルファイル gakui.sty
+
+%%%
+%%% section-title-font set
+%%%
+\def\section{
+  \@startsection{section}{1}{\z@}
+  {3.25ex plus1ex minus.2ex}{2.5ex plus .2ex}{\LARGE\bf}}
+\def\subsection{
+  \@startsection{subsection}{2}{\z@}
+  {3.25ex plus1ex minus.2ex}{1.5ex plus .2ex}{\large\bf}}
+\def\subsubsection{
+  \@startsection{subsubsection}{2}{\z@}
+  {3.25ex plus1ex minus.2ex}{1.5ex plus .2ex}{\bf}}
+
+%%%
+%%% bibliography-title-font set
+%%%
+\def\thebibliography#1{
+  \vskip0.5\baselineskip\list
+  {\arabic{enumi})}{\settowidth\labelwidth{[#1]}\leftmargin\labelwidth
+    \advance\leftmargin\labelsep
+    \usecounter{enumi}}
+  {\settowidth\labelwidth{[#1]}
+    \leftmargin=\labelwidth
+    \advance\leftmargin\labelsep
+    \usecounter{enumi}}
+  \def\newblock{\hskip .11em plus .33em minus .07em}
+  \sloppy
+  \sfcode`\.=1000\relax 
+  %  \small
+}
+
+%%%%%%%%%%%%%%%
+%\input{cite.sty}	% cite.sty
+\usepackage{cite}	% cite.sty
+
+\renewcommand\citeform[1]{#1)} % parenthesized numbers [(1)-(5)]
+\def\@cite#1#2{$^{\mbox{\scriptsize{#1\if@tempswa , #2\fi}}}$}
+%%%%%%%%%%%%%%%
+
+\let\endthebibliography=\endlist
+
+%%%
+%%% headline style set
+%%%
+\def\headline#1{
+  \section*{\hskip-.5em 【#1】}
+  \setcounter{section}{0}}
+
+%%%
+%%% page-style set
+%%%
+\mark{{}{}}
+\def\ps@plain{
+  \def\@oddhead{}
+  \def\@evenhead{}
+  \def\@oddfoot{\hbox{}\hfil{\rm ---\ \thepage\ ---}\hfil}
+  \def\@evenfoot{\hbox{}\hfil{\rm ---\ \thepage\ ---}\hfil}
+  \def\sectionmark##1{}
+  \def\subsectionmark##1{}}
+\ps@plain
+\pagenumbering{arabic}
+\onecolumn
+\if@twoside
+\else
+  \raggedbottom
+\fi
+
+%%%
+%%% initialize for use
+%%%
+\sloppy
+\flushbottom
+\pagestyle{plain}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%% 数式の設定 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% ディスプレイスタイルの分数
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\newcommand{\dfrac}[2]{\displaystyle{\frac{#1}{#2}}}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% ボールドイタリックにするコマンド
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% \newcommand{\bm}[1]{\mbox{\boldmath \it $#1$}}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% 枠有りリターンキー
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newcommand{\returna}{\raisebox{-2pt}{
+    \setlength{\unitlength}{1pt}
+    \thinlines
+    \begin{picture}(8,8)
+      \put(5,3){\line(0,1){5}}
+      \put(5,3){\vector(-1,0){7}}
+      \put(-4,2){\line(0,1){6}}
+      \put(7,2){\line(0,1){6}}
+      \put(1.5,8){\oval(11,4)[t]}
+      \put(1.5,2){\oval(11,4)[b]}
+    \end{picture}
+  }}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% 枠なしリターンキー
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newcommand{\returnb}{\raisebox{-2pt}{
+    \setlength{\unitlength}{1pt}
+    \thinlines
+    \begin{picture}(8,8)
+      \put(5,3){\line(0,1){5}}
+      \put(5,3){\vector(-1,0){7}}
+    \end{picture}
+  }}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% ○で囲んだ数字
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newcommand{\maru}[1]{{\ooalign{\hfill#1\/\hfill\crcr
+        \raise.167ex\hbox{\mathhexbox20D}}}}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%equarray 微修正（）
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\def\eqnarray{%%
+\stepcounter{equation}%%
+\let\@currentlabel=\theequation
+\global\@eqnswtrue
+\global\@eqcnt\z@
+\tabskip\@centering
+\let\\=\@eqncr
+$$\halign to \displaywidth\bgroup\@eqnsel\hskip\@centering
+$\displaystyle\tabskip\z@{##}$&\global\@eqcnt\@ne 
+%%\hskip 2\arraycolsep 
+\hfil$\displaystyle{{}##{}}$\hfil
+&\global\@eqcnt\tw@ $\displaystyle\tabskip\z@{##}$\hfil 
+\tabskip\@centering&\llap{##}\tabskip\z@\cr}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% 図・表 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\def\fnum@figure{{\bf 図\ \thefigure}\ \,}
+\def\fnum@table{{\bf 表\ \thetable}\ \,}
+
+\long\def\@makecaption#1#2{
+  \vskip 0pt % abovecaptionskip
+  \setbox\@tempboxa\hbox{#1 #2}
+  \ifdim \wd\@tempboxa >\hsize
+    \begin{list}{}{\labelwidth 0pt \leftmargin 1.75cm \itemindent -0.75cm
+        \rightmargin 0.25cm}
+      \item[\small#1] \small#2
+    \end{list}
+  \else \hbox
+    to\hsize{\hfil\box\@tempboxa\hfil}
+    \vskip 4pt  % belowcaptionskip
+  \fi}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%list環境の微小修正
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\leftmargini   3zw%%   25pt
+\leftmarginii  2zw%%   22pt 
+\leftmarginiii 2zw%%   18.7pt 
+\leftmarginiv  2zw%%   17pt 
+\leftmarginv   1zw%%   10pt
+\leftmarginvi  1zw%    10pt
+\leftmargin=\leftmargini
+\labelwidth=\leftmargini\advance\labelwidth-\labelsep
+\labelsep      1zw%%    5pt
+
+\def\@listI{%%
+  \leftmargin\leftmargini 
+  \parsep \z@%%                      4pt plus 2pt minus 1pt
+  \topsep 6pt plus 2pt minus 2pt%%   8pt plus 2pt minus 4pt
+  \itemsep 0pt plus 2pt \relax}%%    4pt plus 2pt minus 1pt
+\let\@listi=\@listI
+\@listi 
+
+\def\@listii{%%
+  \leftmargin\leftmarginii
+  \labelwidth\leftmarginii\advance\labelwidth-\labelsep
+  \topsep 2pt plus 1pt minus 1pt%%  4pt plus 2pt minus 1pt
+  \parsep \z@%%                     2pt plus 1pt minus 1pt
+  \itemsep =0pt plus 1pt\relax}
+
+%%display数式のペナルティ変更%%%%%%%%%%%
+\global\postdisplaypenalty 0%10000
+%%display数式がぺージトップへ来ることを認可.デフォルトでは厳禁（10000）
+\global\predisplaypenalty 0%10000
+%%display数式がページボトムへ来ることを認可（デフォルト）
+
+\def\baselinestretch{1.15}
+
+%%行数で指定する場合は，希望行数１を係数とする.
+%%31行の場合は　30\baselineskip　とする
+%%この場合は当然，行送りによって天地寸法は変動.
+\baselineskip =\baselinestretch\baselineskip
+\textheight=38\baselineskip \advance \textheight by \topskip%%
+\advance \textheight by 1pt%%1ptの余裕を持たせる
+%%
+
+
+\newtheorem{problem}{問題}
+%  \renewcommand{\thetheorem}{} % suppress numbering
+% put a box at the end of theorem
+\renewcommand{\endproblem}{\hfill■\endtrivlist}
+
+\newtheorem{example}{例}
+%  \renewcommand{\thetheorem}{} % suppress numbering
+% put a box at the end of theorem
+\renewcommand{\endexample}{\hfill■\endtrivlist}
+
+\newtheorem{theorem}{定理}
+%  \renewcommand{\thetheorem}{} % suppress numbering
+% put a box at the end of theorem
+\renewcommand{\endtheorem}{\hfill□\endtrivlist}
+
+\newtheorem{definition}{定義}
+%  \renewcommand{\thedefinition}{} % suppress numbering
+% put a box at the end of definition
+\renewcommand{\enddefinition}{\hfill■\endtrivlist}
+
+\newtheorem{lemma}{補題}
+%  \renewcommand{\thelemma}{} % suppress numbering
+% put a box at the end of lemma
+\renewcommand{\endlemma}{\hfill□\endtrivlist}
+
+
+
+%---------------------------------------------------------------------
+%
+%	目次
+%
+
+\def\tableofcontents{\@restonecolfalse\if@twocolumn\@restonecoltrue\onecolumn
+  \fi\section*{目 次\@mkboth{目 次}{目 次}}
+  \@starttoc{toc}\if@restonecol\twocolumn\fi}
+\def\l@part#1#2{\addpenalty{-\@highpenalty}
+  \addvspace{2.25em plus 1pt} \begingroup
+  \@tempdima 3em \parindent \z@ \rightskip \@pnumwidth \parfillskip
+  -\@pnumwidth 
+  {\large \bf \leavevmode #1\hfil \hbox to\@pnumwidth{\hss #2}}\par
+  \nobreak \endgroup}
+
+%\def\l@section{\@dottedtocline{1}{0.em}{4.3em}}
+\def\l@section{\@dottedtocline{1}{0.em}{1.5em}}
+\def\l@subsection{\@dottedtocline{2}{2.8em}{2.3em}}
+\def\l@subsubsection{\@dottedtocline{3}{3.8em}{3.2em}}
+
+
+%--------------------------------------------------------------------
+%
+%	章建て
+%
+% \def\thesection {\@chapappl \arabic{section} \@chapappr}
+% \def\thepart {\arabic{section}}
+% \def\thesubsection {\thepart.\arabic{subsection}}
+\def\thesection {\arabic{section}}
+\def\thesubsection {\thesection.\arabic{subsection}}
+\def\thesubsubsection {\thesubsection .\arabic{subsubsection}}
+\def\theparagraph {\thesubsubsection.\arabic{paragraph}}
+\def\thesubparagraph {\theparagraph.\arabic{subparagraph}}
+% \def\@chapappl{第~}
+% \def\@chapappr{章}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% 章ごとに numbering
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\renewcommand{\theequation}{%
+  \thesection.\arabic{equation}}
+\@addtoreset{equation}{section}
+
+\renewcommand{\thetable}{%
+  \thesection.\arabic{table}}
+\@addtoreset{table}{section}
+
+\renewcommand{\thefigure}{%
+  \thesection.\arabic{figure}}
+\@addtoreset{figure}{section}
+
+%%%
+%%% margin set
+%%%
+\setlength{\textheight}{\paperheight}   % ひとまず紙面を本文領域に
+\setlength{\topmargin}{-5.4truemm}      % 上の余白を20mm(=1inch-5.4mm)に
+\addtolength{\topmargin}{-\headheight}  % 
+\addtolength{\topmargin}{-\headsep}     % ヘッダの分だけ本文領域を移動させる
+%\addtolength{\textheight}{-40truemm}    % 下の余白も20mmに
+\addtolength{\textheight}{-45truemm}    % 下の余白も20mmに
+%% 幅の設定
+\setlength{\textwidth}{\paperwidth}     % ひとまず紙面を本文領域に
+\setlength{\oddsidemargin}{-5.4truemm}  % 左の余白を20mm(=1inch-5.4mm)に
+\setlength{\evensidemargin}{-5.4truemm} % 
+\addtolength{\textwidth}{-40truemm}     % 右の余白も20mmに
+

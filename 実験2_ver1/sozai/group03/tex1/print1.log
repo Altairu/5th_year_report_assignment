@@ -1,0 +1,226 @@
+This is e-pTeX, Version 3.141592653-p4.1.0-230214-2.6 (sjis) (TeX Live 2023) (preloaded format=platex 2023.11.9)  11 OCT 2024 11:40
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**print1.tex
+(./print1.tex
+pLaTeX2e <2023-02-14>+1 (based on LaTeX2e <2022-11-01> patch level 1)
+L3 programming layer <2023-02-22>
+(c:/texlive/2023/texmf-dist/tex/platex/base/jarticle.cls
+Document Class: jarticle 2020/09/30 v1.8f Standard pLaTeX class
+\c@@paper=\count184
+(c:/texlive/2023/texmf-dist/tex/platex/base/jsize10.clo
+File: jsize10.clo 2020/09/30 v1.8f Standard pLaTeX file (size option)
+)
+\c@part=\count185
+\c@section=\count186
+\c@subsection=\count187
+\c@subsubsection=\count188
+\c@paragraph=\count189
+\c@subparagraph=\count190
+\c@figure=\count191
+\c@table=\count192
+\abovecaptionskip=\skip48
+\belowcaptionskip=\skip49
+\symmincho=\mathgroup4
+LaTeX Font Info:    Overwriting symbol font `mincho' in version `bold'
+(Font)                  JY1/mc/m/n --> JY1/gt/m/n on input line 615.
+\toclineskip=\dimen156
+\@lnumwidth=\dimen157
+\bibindent=\dimen158
+\heisei=\count193
+)
+(c:/texlive/2023/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
+
+(c:/texlive/2023/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
+\KV@toks@=\toks17
+)
+(c:/texlive/2023/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2022/03/10 v1.4e Standard LaTeX Graphics (DPC,SPQR)
+
+(c:/texlive/2023/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
+)
+(c:/texlive/2023/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: dvipdfmx.def on input line 107.
+
+(c:/texlive/2023/texmf-dist/tex/latex/graphics-def/dvipdfmx.def
+File: dvipdfmx.def 2022/09/22 v5.0m Graphics/color driver for dvipdfmx
+))
+\Gin@req@height=\dimen159
+\Gin@req@width=\dimen160
+)
+(c:/texlive/2023/texmf-dist/tex/latex/tools/multicol.sty
+Package: multicol 2021/11/30 v1.9d multicolumn formatting (FMi)
+\c@tracingmulticols=\count194
+\mult@box=\box68
+\multicol@leftmargin=\dimen161
+\c@unbalance=\count195
+\c@collectmore=\count196
+\doublecol@number=\count197
+\multicoltolerance=\count198
+\multicolpretolerance=\count199
+\full@width=\dimen162
+\page@free=\dimen163
+\premulticols=\dimen164
+\postmulticols=\dimen165
+\multicolsep=\skip50
+\multicolbaselineskip=\skip51
+\partial@page=\box69
+\last@line=\box70
+\maxbalancingoverflow=\dimen166
+\mult@rightbox=\box71
+\mult@grightbox=\box72
+\mult@firstbox=\box73
+\mult@gfirstbox=\box74
+\@tempa=\box75
+\@tempa=\box76
+\@tempa=\box77
+\@tempa=\box78
+\@tempa=\box79
+\@tempa=\box80
+\@tempa=\box81
+\@tempa=\box82
+\@tempa=\box83
+\@tempa=\box84
+\@tempa=\box85
+\@tempa=\box86
+\@tempa=\box87
+\@tempa=\box88
+\@tempa=\box89
+\@tempa=\box90
+\@tempa=\box91
+\@tempa=\box92
+\@tempa=\box93
+\@tempa=\box94
+\@tempa=\box95
+\@tempa=\box96
+\@tempa=\box97
+\@tempa=\box98
+\@tempa=\box99
+\@tempa=\box100
+\@tempa=\box101
+\@tempa=\box102
+\@tempa=\box103
+\@tempa=\box104
+\@tempa=\box105
+\@tempa=\box106
+\@tempa=\box107
+\@tempa=\box108
+\@tempa=\box109
+\@tempa=\box110
+\c@minrows=\count266
+\c@columnbadness=\count267
+\c@finalcolumnbadness=\count268
+\last@try=\dimen167
+\multicolovershoot=\dimen168
+\multicolundershoot=\dimen169
+\mult@nat@firstbox=\box111
+\colbreak@box=\box112
+\mc@col@check@num=\count269
+) (./verbatimfiles.sty
+\c@lineno=\count270
+) (./verbyen.sty) (c:/texlive/2023/texmf-dist/tex/latex/ascmac/ascmac.sty
+Package: ascmac 2020/01/15 v2.1 ascmac wrapper (community edition) 
+
+(c:/texlive/2023/texmf-dist/tex/latex/ascmac/tascmac.sty
+Package: tascmac 2020/01/15 v2.1 ascmac package (community edition) 
+\@savetbaselineshift=\dimen170
+\@saveybaselineshift=\dimen171
+\scb@x=\box113
+\scscb@x=\box114
+\@bw=\dimen172
+\@nbox=\box115
+\@nbody=\box116
+\@scw=\dimen173
+\ascmac@hoboxa=\box117
+\ascmac@hoboxb=\box118
+\@itemh=\dimen174
+\@iboxpos=\toks18
+\@iboxstr=\box119
+\@bwsp=\box120
+\@@bwsp=\box121
+\@bcal=\count271
+\shaderule=\dimen175
+))
+(c:/texlive/2023/texmf-dist/tex/latex/l3backend/l3backend-dvipdfmx.def
+File: l3backend-dvipdfmx.def 2023-01-16 L3 backend support: dvipdfmx
+\g__graphics_track_{\mathrm{I}}nt=\count272
+\l__pdf_internal_box=\box122
+\g__pdf_backend_object_int=\count273
+\g__pdf_backend_annotation_int=\count274
+\g__pdf_backend_link_{\mathrm{I}}nt=\count275
+)
+(./print1.aux)
+\openout1 = `print1.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for JY1/mc/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for JT1/mc/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+File: ../da/da_conv-crop.pdf Graphic file (type pdf)
+<../da/da_conv-crop.pdf>
+LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <10> not available
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 28.
+LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <10> not available
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 28.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 30.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 30.
+File: ../ad/ad_conv-crop.pdf Graphic file (type pdf)
+<../ad/ad_conv-crop.pdf>
+
+Overfull \hbox (2.22221pt too wide) in paragraph at lines 25--40
+[][]$[]$[] []$[]$[]
+ []
+
+File: ../ad_da/ad_da_conv-crop.pdf Graphic file (type pdf)
+<../ad_da/ad_da_conv-crop.pdf>
+File: ../ad_da/figure_ad_da-crop.pdf Graphic file (type pdf)
+<../ad_da/figure_ad_da-crop.pdf>
+[1
+
+]
+File: ../pcont/ex_pcont-crop.pdf Graphic file (type pdf)
+<../pcont/ex_pcont-crop.pdf>
+File: ../pcont/figure_pcont_angle-crop.pdf Graphic file (type pdf)
+<../pcont/figure_pcont_angle-crop.pdf>
+File: ../pcont/figure_pcont_volt-crop.pdf Graphic file (type pdf)
+<../pcont/figure_pcont_volt-crop.pdf>
+ [2]
+File: ../picont/ex_picont-crop.pdf Graphic file (type pdf)
+<../picont/ex_picont-crop.pdf>
+File: ../picont/figure_picont_angle-crop.pdf Graphic file (type pdf)
+<../picont/figure_picont_angle-crop.pdf>
+File: ../picont/figure_picont_volt-crop.pdf Graphic file (type pdf)
+<../picont/figure_picont_volt-crop.pdf>
+ [3] (./print1.aux) ) 
+Here is how much of TeX's memory you used:
+ 1285 strings out of 476693
+ 23055 string characters out of 5808557
+ 1846203 words of memory out of 5000000
+ 21759 multiletter control sequences out of 15000+600000
+ 516730 words of font info for 52 fonts, out of 8000000 for 9000
+ 929 hyphenation exceptions out of 8191
+ 55i,8n,62p,204b,302s stack positions out of 10000i,1000n,20000p,200000b,200000s
+
+Output written on print1.dvi (3 pages, 2704 bytes).

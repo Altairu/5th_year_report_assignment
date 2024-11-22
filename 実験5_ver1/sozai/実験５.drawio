@@ -1,0 +1,219 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.7.17 Chrome/128.0.6613.36 Electron/32.0.1 Safari/537.36" version="24.7.17" pages="3">
+  <diagram name="ページ1" id="FQN3btEkEggQ161jcnd-">
+    <mxGraphModel dx="819" dy="497" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="hP_nf9xxPoFUclb5-hwc-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="hP_nf9xxPoFUclb5-hwc-1" target="hP_nf9xxPoFUclb5-hwc-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hP_nf9xxPoFUclb5-hwc-1" value="ノートPC&lt;div&gt;Windows&lt;/div&gt;&lt;div&gt;UFACTORY Studio&lt;/div&gt;&lt;div&gt;Python&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="320" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="hP_nf9xxPoFUclb5-hwc-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="hP_nf9xxPoFUclb5-hwc-2" target="hP_nf9xxPoFUclb5-hwc-14">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="470" y="450" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hP_nf9xxPoFUclb5-hwc-2" value="制御PC&lt;div&gt;Linux&lt;/div&gt;&lt;div&gt;制御周期10[ms]&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="320" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="hP_nf9xxPoFUclb5-hwc-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="hP_nf9xxPoFUclb5-hwc-3" target="hP_nf9xxPoFUclb5-hwc-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hP_nf9xxPoFUclb5-hwc-3" value="100V&lt;div&gt;電源&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="400" y="440" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="hP_nf9xxPoFUclb5-hwc-6" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="590" y="300" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="hP_nf9xxPoFUclb5-hwc-8" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;" vertex="1" parent="1">
+          <mxGeometry x="640" y="290" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="hP_nf9xxPoFUclb5-hwc-9" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="610" y="290" width="30" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="hP_nf9xxPoFUclb5-hwc-11" value="" style="rounded=0;whiteSpace=wrap;html=1;rotation=-45;" vertex="1" parent="1">
+          <mxGeometry x="544.39" y="320.61" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="hP_nf9xxPoFUclb5-hwc-12" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="540" y="360.61" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="hP_nf9xxPoFUclb5-hwc-13" value="" style="rounded=0;whiteSpace=wrap;html=1;rotation=-115;" vertex="1" parent="1">
+          <mxGeometry x="530" y="390" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="hP_nf9xxPoFUclb5-hwc-15" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="564.39" y="430" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="hP_nf9xxPoFUclb5-hwc-14" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="514.39" y="440" width="135.61" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="xmDB8AMR64mlbeHu1fnh" name="ページ2">
+    <mxGraphModel dx="574" dy="348" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="PUuchQEiQ1UGvY4gphZg-1" value="" style="shape=partialRectangle;whiteSpace=wrap;html=1;bottom=0;right=0;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="280" y="520" width="120" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="PUuchQEiQ1UGvY4gphZg-2" value="" style="shape=partialRectangle;whiteSpace=wrap;html=1;bottom=0;right=0;fillColor=none;rotation=90;" vertex="1" parent="1">
+          <mxGeometry x="360" y="560" width="240" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="PUuchQEiQ1UGvY4gphZg-7" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="340" y="570" width="50" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="PUuchQEiQ1UGvY4gphZg-3" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.rect;fillColor2=none;strokeWidth=1;size=20;indent=5;" vertex="1" parent="PUuchQEiQ1UGvY4gphZg-7">
+          <mxGeometry width="50" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="PUuchQEiQ1UGvY4gphZg-4" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.rect;fillColor2=none;strokeWidth=1;size=20;indent=5;rotation=-90;" vertex="1" parent="PUuchQEiQ1UGvY4gphZg-7">
+          <mxGeometry x="-6" y="20" width="30" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="PUuchQEiQ1UGvY4gphZg-5" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.rect;fillColor2=none;strokeWidth=1;size=20;indent=5;rotation=-90;" vertex="1" parent="PUuchQEiQ1UGvY4gphZg-7">
+          <mxGeometry x="24" y="20" width="30" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="PUuchQEiQ1UGvY4gphZg-8" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;endArrow=classic;html=1;curved=0;rounded=0;endSize=8;startSize=8;entryX=0.488;entryY=-0.04;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.113;exitY=1.013;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="PUuchQEiQ1UGvY4gphZg-2" target="PUuchQEiQ1UGvY4gphZg-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="590" as="sourcePoint" />
+            <mxPoint x="440" y="540" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="380" y="550" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PUuchQEiQ1UGvY4gphZg-13" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.rect;fillColor2=none;strokeWidth=1;size=20;indent=5;" vertex="1" parent="1">
+          <mxGeometry x="480" y="640" width="40" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="PUuchQEiQ1UGvY4gphZg-14" value="P1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="485" y="640" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PUuchQEiQ1UGvY4gphZg-15" value="P2" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="485" y="670" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PUuchQEiQ1UGvY4gphZg-16" value="P3" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="485" y="700" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PUuchQEiQ1UGvY4gphZg-9" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.rect;fillColor2=none;strokeWidth=1;size=20;indent=5;" vertex="1" parent="1">
+          <mxGeometry x="320" y="640" width="40" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="PUuchQEiQ1UGvY4gphZg-10" value="S1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="325" y="640" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PUuchQEiQ1UGvY4gphZg-11" value="S2" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="325" y="670" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PUuchQEiQ1UGvY4gphZg-12" value="S3" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="325" y="700" width="30" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="EQruWchjP5YeGzdDpv3R" name="ページ3">
+    <mxGraphModel dx="989" dy="600" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="67Fab36-caNjaczK6mdO-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="67Fab36-caNjaczK6mdO-1" target="67Fab36-caNjaczK6mdO-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="67Fab36-caNjaczK6mdO-1" value="スタート" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="200" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="67Fab36-caNjaczK6mdO-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="67Fab36-caNjaczK6mdO-2" target="67Fab36-caNjaczK6mdO-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="67Fab36-caNjaczK6mdO-2" value="現在の関節角度情報から順運動学を&lt;div&gt;用いて手先の位置姿勢を計算&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="280" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="67Fab36-caNjaczK6mdO-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="67Fab36-caNjaczK6mdO-3" target="67Fab36-caNjaczK6mdO-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="67Fab36-caNjaczK6mdO-3" value="現在位置と目標位置を直線で結ぶ&lt;div&gt;直線経路を生成&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="340" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="67Fab36-caNjaczK6mdO-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="67Fab36-caNjaczK6mdO-4" target="67Fab36-caNjaczK6mdO-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="67Fab36-caNjaczK6mdO-4" value="時間の多項式による手先の軌道生成" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="400" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="67Fab36-caNjaczK6mdO-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="67Fab36-caNjaczK6mdO-5" target="67Fab36-caNjaczK6mdO-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="67Fab36-caNjaczK6mdO-5" value="軌道の式に現在時刻を代入し，&lt;div&gt;現在時刻における目標位置を計算&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="460" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="67Fab36-caNjaczK6mdO-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="67Fab36-caNjaczK6mdO-6" target="67Fab36-caNjaczK6mdO-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="67Fab36-caNjaczK6mdO-6" value="逆運動学による関節軌道を計算" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="520" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="67Fab36-caNjaczK6mdO-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1.015;entryY=0.388;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="67Fab36-caNjaczK6mdO-7" target="67Fab36-caNjaczK6mdO-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="350" y="480" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="350" y="600" />
+              <mxPoint x="350" y="476" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="67Fab36-caNjaczK6mdO-7" value="モータの制御" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="580" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="67Fab36-caNjaczK6mdO-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="67Fab36-caNjaczK6mdO-18" target="67Fab36-caNjaczK6mdO-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="67Fab36-caNjaczK6mdO-18" value="スタート" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="200" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="67Fab36-caNjaczK6mdO-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="67Fab36-caNjaczK6mdO-20" target="67Fab36-caNjaczK6mdO-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="67Fab36-caNjaczK6mdO-20" value="現在の関節角度情報の取得" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="280" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="67Fab36-caNjaczK6mdO-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="67Fab36-caNjaczK6mdO-22" target="67Fab36-caNjaczK6mdO-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="67Fab36-caNjaczK6mdO-22" value="&lt;div&gt;手先の目標位置姿勢から，&lt;/div&gt;&lt;div&gt;逆運動学で目標関節角度を計算&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="340" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="67Fab36-caNjaczK6mdO-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="67Fab36-caNjaczK6mdO-24" target="67Fab36-caNjaczK6mdO-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="67Fab36-caNjaczK6mdO-24" value="時間の多項式による関節の軌道生成" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="400" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="67Fab36-caNjaczK6mdO-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="67Fab36-caNjaczK6mdO-26" target="67Fab36-caNjaczK6mdO-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="67Fab36-caNjaczK6mdO-26" value="軌道の式に現在時刻を代入し，&lt;div&gt;現在時刻における目標角度を計算&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="460" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="67Fab36-caNjaczK6mdO-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1.015;entryY=0.388;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="67Fab36-caNjaczK6mdO-30" target="67Fab36-caNjaczK6mdO-26">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="670" y="480" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="670" y="600" />
+              <mxPoint x="670" y="476" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="67Fab36-caNjaczK6mdO-30" value="モータの制御" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="580" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="67Fab36-caNjaczK6mdO-32" value="作業空間の場合【実験1-2】" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="115" y="630" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="67Fab36-caNjaczK6mdO-33" value="関節空間の場合【実験2】" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="440" y="628" width="160" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

@@ -1,0 +1,116 @@
+\documentclass[dvipdfmx]{jarticle}
+
+%\usepackage{graphicx}     % eps 形式の図版取り込みのためパッケージの読み込み
+\usepackage[dvipdfmx]{graphicx}     % pdf 形式の図版取り込みのためパッケージの読み込み
+\usepackage{multicol}
+\usepackage{verbatimfiles}
+\usepackage{verbyen}
+\usepackage{ascmac}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\setlength{\topmargin}{-1.75cm}
+\setlength{\oddsidemargin}{-0.25cm}
+\setlength{\evensidemargin}{-0.25cm}
+\setlength{\textheight}{24.5cm}
+\setlength{\textwidth}{16.5cm}
+\setlength{\parindent}{0.cm}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+\pagestyle{empty}
+
+%%%%%
+%%%%% ident
+\begin{center}
+	\fbox{\includegraphics[scale=0.65]{../ident/ex_ident-crop.pdf}} \\
+	{\bf 図　　} ``\,\verb+ex_ident.slx+\,''
+\end{center}
+\vspace*{0.35cm}
+
+
+\begin{multicols}{2}
+\begin{center}
+	\includegraphics[scale=0.4]{../ident/figure_lowpass-crop.pdf}\\
+	{\bf 図　　} ローパスフィルタの効果 \\
+	\includegraphics[scale=0.4]{../ident/figure_ident-crop.pdf}\\
+	{\bf 図　　} 時定数 \(T\)，ゲイン \(K\) の抽出
+\end{center}
+\end{multicols}
+
+
+\newpage
+%%%%%
+%%%%% pdcont
+\begin{center}
+	\fbox{\includegraphics[scale=0.65]{../pdcont/ex_pdcont-crop.pdf}} \\
+	{\bf 図　　} ``\,\verb+ex_pdcont.slx+\,''
+\end{center}
+\vspace*{0.35cm}
+
+\begin{multicols}{2}
+\begin{center}
+	\includegraphics[scale=0.4]{../pdcont/figure_pdcont_angle-crop.pdf}\\
+	(a)\ \ アーム角度 \({\theta}(t)\) [rad] \\
+	\includegraphics[scale=0.4]{../pdcont/figure_pdcont_volt-crop.pdf}\\
+	(b)\ \ 入力電圧 \(v(t)\) [V]
+\end{center}
+\end{multicols}
+\vspace*{-0.25cm}
+\begin{center}
+	\includegraphics[scale=0.4]{../pdcont/figure_pdcont_model-crop.pdf}\\
+	(c)\ \ 規範モデルのステップ応答 \\ \vspace*{0.1cm}
+	{\bf 図　　} P--D 制御の実験結果
+\end{center}
+
+
+\newpage
+%%%%%
+%%%%% ipcont
+\begin{center}
+	\fbox{\includegraphics[scale=0.65]{../ipcont/ex_ipcont-crop.pdf}} \\
+	{\bf 図　　} ``\,\verb+ex_ipcont.slx+\,''
+\end{center}
+\vspace*{0.35cm}
+
+\begin{multicols}{2}
+\begin{center}
+	\includegraphics[scale=0.4]{../ipcont/figure_ipcont_angle-crop.pdf}\\
+	(a)\ \ アーム角度 \({\theta}(t)\) [rad] \\
+	\includegraphics[scale=0.4]{../ipcont/figure_ipcont_volt-crop.pdf}\\
+	(b)\ \ 入力電圧 \(v(t)\) [V]
+\end{center}
+\end{multicols}
+\vspace*{-0.25cm}
+\begin{center}
+	\includegraphics[scale=0.4]{../ipcont/figure_ipcont_model-crop.pdf}\\
+	(c)\ \ 規範モデルのステップ応答 \\ \vspace*{0.1cm}
+	{\bf 図　　} I--P 制御の実験結果
+\end{center}
+
+\newpage
+%%%%%
+%%%%% ipdcont
+\begin{center}
+	\fbox{\includegraphics[scale=0.65]{../ipdcont/ex_ipdcont-crop.pdf}} \\
+	{\bf 図　　} ``\,\verb+ex_ipdcont.slx+\,''
+\end{center}
+\vspace*{0.35cm}
+
+\begin{multicols}{2}
+\begin{center}
+	\includegraphics[scale=0.4]{../ipdcont/figure_ipdcont_angle-crop.pdf}\\
+	(a)\ \ アーム角度 \({\theta}(t)\) [rad] \\
+	\includegraphics[scale=0.4]{../ipdcont/figure_ipdcont_volt-crop.pdf}\\
+	(b)\ \ 入力電圧 \(v(t)\) [V]
+\end{center}
+\end{multicols}
+\vspace*{-0.25cm}
+\begin{center}
+	\includegraphics[scale=0.4]{../ipdcont/figure_ipdcont_model-crop.pdf}\\
+	(c)\ \ 規範モデルのステップ応答 \\ \vspace*{0.1cm}
+	{\bf 図　　} I--PD 制御の実験結果
+\end{center}
+
+
+
+\end{document}

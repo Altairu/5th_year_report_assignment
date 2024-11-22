@@ -1,0 +1,32 @@
+% LaTeX スタイル・マクロ ポケットリファレンス
+% -- \verb, verbatim環境で \ 記号を出す --------------------
+% オリジナル：奥村 晴彦 「LaTeX美文書作成入門」
+
+\def\yen{Y\llap=}
+
+\begingroup
+ \catcode`\|=0 \catcode`\\=13 |gdef|verbh@@k{|catcode`|\=13 |let\=|yen}
+|endgroup
+
+\begingroup \catcode`|=0 \catcode`[=1 \catcode`]=2 \catcode`\{=12
+ \catcode`\}=12 \catcode`\\=13
+ |gdef|@xverbatim#1\end{verbatim}[#1|end[verbatim]]
+ |gdef|@sxverbatim#1\end{verbatim*}[#1|end[verbatim*]]
+|endgroup
+
+\def\verbatim{\@verbatim \frenchspacing\@vobeyspaces \verbh@@k \@xverbatim}
+
+\@namedef{verbatim*}{\@verbatim \verbh@@k \@sxverbatim}
+
+\@ifundefined{LaTeXe}{%
+\def\verb{\begingroup \catcode``=13 \@noligs
+ \tt \let\do\@makeother \dospecials \verbh@@k \@ifstar{\@sverb}{\@verb}}
+}{%
+\def\verb{\relax\ifmmode\hbox\else\leavevmode\null\fi
+  \bgroup \verbatim@font\@noligs
+    \verb@eol@error \let\do\@makeother \dospecials \verbh@@k
+    \@ifstar\@sverb\@verb}
+}
+
+
+\endinput

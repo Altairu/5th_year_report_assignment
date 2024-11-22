@@ -1,0 +1,92 @@
+\documentclass[dvipdfmx]{jarticle}
+
+% \usepackage{graphicx}     % eps 形式の図版取り込みのためパッケージの読み込み
+\usepackage[dvipdfmx]{graphicx}     % pdf 形式の図版取り込みのためパッケージの読み込み
+\usepackage{multicol}
+\usepackage{verbatimfiles}
+\usepackage{verbyen}
+\usepackage{ascmac}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\setlength{\topmargin}{-1.75cm}
+\setlength{\oddsidemargin}{-0.25cm}
+\setlength{\evensidemargin}{-0.25cm}
+\setlength{\textheight}{24.5cm}
+\setlength{\textwidth}{16.5cm}
+\setlength{\parindent}{0.cm}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+\pagestyle{empty}
+
+
+%%%%% 
+%%%%% DA
+\begin{minipage}{0.5\textwidth}
+\begin{center}
+	\fbox{\includegraphics[scale=0.65]{../da/da_conv-crop.pdf}} \\
+	{\bf 図　　} ``\,\verb+da_conv.slx+\,''
+\end{center}
+\end{minipage}
+%%%%%
+%%%%% AD
+\begin{minipage}{0.5\textwidth}
+\begin{center}
+	\fbox{\includegraphics[scale=0.65]{../ad/ad_conv-crop.pdf}} \\
+	{\bf 図　　} ``\,\verb+ad_conv.slx+\,''
+\end{center}
+\end{minipage}
+\bigskip
+
+%%%%%
+%%%%% AD_DA
+\begin{center}
+	\fbox{\includegraphics[scale=0.65]{../ad_da/ad_da_conv-crop.pdf}} \\
+	{\bf 図　　} ``\,\verb+ad_da_conv.slx+\,''
+\end{center}
+\vspace*{0.35cm}
+
+\begin{center}
+	\includegraphics[scale=0.4]{../ad_da/figure_ad_da-crop.pdf}\\
+	{\bf 図　　} A/D，D/A 変換の動作確認
+\end{center}
+
+\newpage
+%%%%%
+%%%%% Pcont
+\begin{center}
+	\fbox{\includegraphics[scale=0.65]{../pcont/ex_pcont-crop.pdf}} \\
+	{\bf 図　　} ``\,\verb+ex_pcont.slx+\,''
+\end{center}
+\vspace*{0.35cm}
+
+\begin{center}
+	\begin{tabular}{cc}
+	\includegraphics[scale=0.4]{../pcont/figure_pcont_angle-crop.pdf} &
+	\includegraphics[scale=0.4]{../pcont/figure_pcont_volt-crop.pdf}\\
+	(a)\ \ アーム角度 \({\theta}(t)\) [rad] &
+	(b)\ \ 入力電圧 \(v(t)\) [V]
+	\end{tabular}\\\vskip4pt
+	{\bf 図　　} P 制御の実験結果
+\end{center}
+
+\newpage
+%%%%%
+%%%%% PIcont
+\begin{center}
+	\fbox{\includegraphics[scale=0.65]{../picont/ex_picont-crop.pdf}} \\
+	{\bf 図　　} ``\,\verb+ex_picont.slx+\,''
+\end{center}
+\vspace*{0.35cm}
+
+\begin{center}
+	\begin{tabular}{cc}
+	\includegraphics[scale=0.4]{../picont/figure_picont_angle-crop.pdf} &
+	\includegraphics[scale=0.4]{../picont/figure_picont_volt-crop.pdf}\\
+	(a)\ \ アーム角度 \({\theta}(t)\) [rad] &
+	(b)\ \ 入力電圧 \(v(t)\) [V]
+	\end{tabular}\\\vskip4pt
+	{\bf 図　　} PI 制御の実験結果
+\end{center}
+
+\end{document}

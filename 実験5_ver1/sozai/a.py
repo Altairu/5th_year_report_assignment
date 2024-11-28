@@ -17,7 +17,7 @@ measured_positions = np.array([
     [486.1, -126.9]
 ])
 
-# 実位置の全体的な距離（ノルム）
+# 実位置の全体的な距離
 actual_distance = np.linalg.norm(actual_position)
 
 # 各フィルタの誤差距離

@@ -144,7 +144,7 @@
         <mxCell id="67Fab36-caNjaczK6mdO-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="67Fab36-caNjaczK6mdO-5" target="67Fab36-caNjaczK6mdO-6">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="67Fab36-caNjaczK6mdO-5" value="軌道の式に現在時刻を代入し，&lt;div&gt;現在時刻における目標位置を計算&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="67Fab36-caNjaczK6mdO-5" value="軌道の式に現在時刻を代入し,&lt;div&gt;現在時刻における目標位置を計算&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="80" y="460" width="240" height="40" as="geometry" />
         </mxCell>
         <mxCell id="67Fab36-caNjaczK6mdO-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="67Fab36-caNjaczK6mdO-6" target="67Fab36-caNjaczK6mdO-7">
@@ -180,7 +180,7 @@
         <mxCell id="67Fab36-caNjaczK6mdO-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="67Fab36-caNjaczK6mdO-22" target="67Fab36-caNjaczK6mdO-24">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="67Fab36-caNjaczK6mdO-22" value="&lt;div&gt;手先の目標位置姿勢から，&lt;/div&gt;&lt;div&gt;逆運動学で目標関節角度を計算&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="67Fab36-caNjaczK6mdO-22" value="&lt;div&gt;手先の目標位置姿勢から,&lt;/div&gt;&lt;div&gt;逆運動学で目標関節角度を計算&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="400" y="340" width="240" height="40" as="geometry" />
         </mxCell>
         <mxCell id="67Fab36-caNjaczK6mdO-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="67Fab36-caNjaczK6mdO-24" target="67Fab36-caNjaczK6mdO-26">
@@ -192,7 +192,7 @@
         <mxCell id="67Fab36-caNjaczK6mdO-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="67Fab36-caNjaczK6mdO-26" target="67Fab36-caNjaczK6mdO-30">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="67Fab36-caNjaczK6mdO-26" value="軌道の式に現在時刻を代入し，&lt;div&gt;現在時刻における目標角度を計算&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="67Fab36-caNjaczK6mdO-26" value="軌道の式に現在時刻を代入し,&lt;div&gt;現在時刻における目標角度を計算&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="400" y="460" width="240" height="40" as="geometry" />
         </mxCell>
         <mxCell id="67Fab36-caNjaczK6mdO-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1.015;entryY=0.388;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="67Fab36-caNjaczK6mdO-30" target="67Fab36-caNjaczK6mdO-26">

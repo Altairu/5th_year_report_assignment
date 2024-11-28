@@ -702,7 +702,7 @@ Underfull \hbox (badness 2073) in paragraph at lines 102--106
 
 
 Underfull \hbox (badness 2073) in paragraph at lines 102--106
-\JY1/mc/m/n/10 用方法 」 を参考にして ， 図 \T1/lmr/m/n/10 A.1 \JY1/mc/m/n/10 の \T1/lmr/m/n/10 Simulink \JY1/mc/m/n/10 モデル\T1/lmr/m/n/10 "pend_count.slx"\JY1/mc/m/n/10 を作成し ， デ ィレクトリ
+\JY1/mc/m/n/10 用方法 」 を参考にして , 図 \T1/lmr/m/n/10 A.1 \JY1/mc/m/n/10 の \T1/lmr/m/n/10 Simulink \JY1/mc/m/n/10 モデル\T1/lmr/m/n/10 "pend_count.slx"\JY1/mc/m/n/10 を作成し , デ ィレクトリ
  []
 
 File: sozai/shinnshinokakudohenni.pdf Graphic file (type pdf)
@@ -714,7 +714,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 144--154
-[]\JY1/mc/m/n/10 図 \T1/lmr/m/n/10 A.2 \JY1/mc/m/n/10 の \T1/lmr/m/n/10 Simulink \JY1/mc/m/n/10 モデル \T1/lmr/m/n/10 "pend_count2.slx" \JY1/mc/m/n/10 を作成し ， 振子を時計回りに \T1/lmr/m/n/10 1 \JY1/mc/m/n/10 回
+[]\JY1/mc/m/n/10 図 \T1/lmr/m/n/10 A.2 \JY1/mc/m/n/10 の \T1/lmr/m/n/10 Simulink \JY1/mc/m/n/10 モデル \T1/lmr/m/n/10 "pend_count2.slx" \JY1/mc/m/n/10 を作成し , 振子を時計回りに \T1/lmr/m/n/10 1 \JY1/mc/m/n/10 回
  []
 
 
@@ -750,7 +750,7 @@ File: sozai/daisyanoichihenni.pdf Graphic file (type pdf)
 <sozai/daisyanoichihenni.pdf>
 [6] [7]
 Underfull \hbox (badness 10000) in paragraph at lines 389--393
-[]\JY1/mc/m/n/10 と設定し ， 書き保存する ． また ， ビルドしてエラ ーがないことを確認した
+[]\JY1/mc/m/n/10 と設定し , 書き保存する ． また , ビルドしてエラ ーがないことを確認した
  []
 
 ) [8] (./part11.tex

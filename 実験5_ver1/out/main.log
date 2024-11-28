@@ -1,10 +1,10 @@
-This is e-pTeX, Version 3.141592653-p3.9.1-210218-2.6 (utf8.euc) (TeX Live 2022/dev/Debian) (preloaded format=platex 2024.3.16)  25 OCT 2024 08:58
+This is e-pTeX, Version 3.141592653-p3.9.1-210218-2.6 (utf8.euc) (TeX Live 2022/dev/Debian) (preloaded format=platex 2024.3.16)  28 NOV 2024 09:34
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**/home/altair/OneDrive/5th_year_report_assignment/実験3_ver1/main.tex
-(/home/altair/OneDrive/5th_year_report_assignment/絎^^9f薑^^933_ver1/main.tex
+**/home/altair/5th_year_report_assignment/実験5_ver1/main.tex
+(/home/altair/5th_year_report_assignment/絎^^9f薑^^935_ver1/main.tex
 pLaTeX2e <2021-11-15> (based on LaTeX2e <2021-11-15> patch level 1)
 L3 programming layer <2022-01-21> (/usr/share/texlive/texmf-dist/tex/latex/plautopatch/plautopatch.sty
 Package: plautopatch 2021/12/07 v0.9q Automated patches for pLaTeX/upLaTeX
@@ -283,50 +283,52 @@ Package: tascmac 2020/01/15 v2.1 ascmac package (community edition)
 \@@bwsp=\box127
 \@bcal=\count282
 \shaderule=\dimen187
-)) (./eclbkbox.sty
+)) (/usr/share/texlive/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2020/10/26 v3.5g Customizing captions (AR)
+(/usr/share/texlive/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2020/10/21 v2.2e caption3 kernel (AR)
+\captionmargin=\dimen188
+\captionmargin@=\dimen189
+\captionwidth=\dimen190
+\caption@tempdima=\dimen191
+\caption@indent=\dimen192
+\caption@parindent=\dimen193
+\caption@hangindent=\dimen194
+Package caption Info: Unknown document class (or package),
+(caption)             standard defaults will be used.
+Package caption Info: \@makecaption = \long macro:#1#2->{\small \advance \leftskip .0628\linewidth \advance \rightskip .0628\linewidth \vskip \abovecaptionskip \sbox \@tempboxa {#1\hskip 1zw\relax #2}\ifdim \wd \@tempboxa <\hsize \centering \fi #1{\hskip 1zw\relax }#2\par \vskip \belowcaptionskip } on input line 1139.
+)
+
+Package caption Warning: Unknown document class (or package),
+(caption)                standard defaults will be used.
+See the caption package documentation for explanation.
+
+\c@caption@flags=\count283
+\c@continuedfloat=\count284
+Package caption Info: float package is loaded.
+) (/usr/share/texlive/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count285
+) (./eclbkbox.sty
 \bk@bxb=\box128
 \bk@bxa=\box129
-\bk@lcnt=\count283
+\bk@lcnt=\count286
 ) (./indent.sty) (./report5s.sty (/usr/share/texlive/texmf-dist/tex/latex/cite/cite.sty
 LaTeX Info: Redefining \cite on input line 302.
 LaTeX Info: Redefining \nocite on input line 332.
 Package: cite 2015/02/27  v 5.5
 )
-\c@problem=\count284
-\c@example=\count285
-\c@theorem=\count286
-\c@definition=\count287
-\c@lemma=\count288
-) (/usr/share/texlive/texmf-dist/tex/latex/listings/listings.sty
-\lst@mode=\count289
-\lst@gtempboxa=\box130
-\lst@token=\toks27
-\lst@length=\count290
-\lst@currlwidth=\dimen188
-\lst@column=\count291
-\lst@pos=\count292
-\lst@lostspace=\dimen189
-\lst@width=\dimen190
-\lst@newlines=\count293
-\lst@lineno=\count294
-\lst@maxwidth=\dimen191
-(/usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty
-File: lstmisc.sty 2020/03/24 1.8d (Carsten Heinz)
-\c@lstnumber=\count295
-\lst@skipnumbers=\count296
-\lst@framebox=\box131
-) (/usr/share/texlive/texmf-dist/tex/latex/listings/listings.cfg
-File: listings.cfg 2020/03/24 1.8d listings configuration
-))
-Package: listings 2020/03/24 1.8d (Carsten Heinz)
-(/usr/share/texlive/texmf-dist/tex/latex/tcolorbox/tcolorbox.sty
-Package: tcolorbox 2022/01/07 version 5.0.2 text color boxes
-(/usr/share/texlive/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty (/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
-\pgfutil@everybye=\toks28
-\pgfutil@tempdima=\dimen192
-\pgfutil@tempdimb=\dimen193
+\c@problem=\count287
+\c@example=\count288
+\c@theorem=\count289
+\c@definition=\count290
+\c@lemma=\count291
+) (/usr/share/texlive/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty (/usr/share/texlive/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty (/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
+\pgfutil@everybye=\toks27
+\pgfutil@tempdima=\dimen195
+\pgfutil@tempdimb=\dimen196
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-common-lists.tex)) (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
-\pgfutil@abb=\box132
+\pgfutil@abb=\box130
 ) (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex (/usr/share/texlive/texmf-dist/tex/generic/pgf/pgf.revision.tex)
 Package: pgfrcs 2021/05/15 v3.1.9a (3.1.9a)
 )) (/usr/share/texlive/texmf-dist/tex/latex/plautopatch/pxpgfrcs.sty
@@ -336,31 +338,31 @@ Package: pgf 2021/05/15 v3.1.9a (3.1.9a)
 (/usr/share/texlive/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty (/usr/share/texlive/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
 Package: pgfsys 2021/05/15 v3.1.9a (3.1.9a)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
-\pgfkeys@pathtoks=\toks29
-\pgfkeys@temptoks=\toks30
+\pgfkeys@pathtoks=\toks28
+\pgfkeys@temptoks=\toks29
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeysfiltered.code.tex
-\pgfkeys@tmptoks=\toks31
+\pgfkeys@tmptoks=\toks30
 ))
-\pgf@x=\dimen194
-\pgf@y=\dimen195
-\pgf@xa=\dimen196
-\pgf@ya=\dimen197
-\pgf@xb=\dimen198
-\pgf@yb=\dimen199
-\pgf@xc=\dimen256
-\pgf@yc=\dimen257
-\pgf@xd=\dimen258
-\pgf@yd=\dimen259
+\pgf@x=\dimen197
+\pgf@y=\dimen198
+\pgf@xa=\dimen199
+\pgf@ya=\dimen256
+\pgf@xb=\dimen257
+\pgf@yb=\dimen258
+\pgf@xc=\dimen259
+\pgf@yc=\dimen260
+\pgf@xd=\dimen261
+\pgf@yd=\dimen262
 \w@pgf@writea=\write3
 \r@pgf@reada=\read2
-\c@pgf@counta=\count297
-\c@pgf@countb=\count298
-\c@pgf@countc=\count299
-\c@pgf@countd=\count300
-\t@pgf@toka=\toks32
-\t@pgf@tokb=\toks33
-\t@pgf@tokc=\toks34
-\pgf@sys@id@count=\count301
+\c@pgf@counta=\count292
+\c@pgf@countb=\count293
+\c@pgf@countc=\count294
+\c@pgf@countd=\count295
+\t@pgf@toka=\toks31
+\t@pgf@tokb=\toks32
+\t@pgf@tokc=\toks33
+\pgf@sys@id@count=\count296
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
 File: pgf.cfg 2021/05/15 v3.1.9a (3.1.9a)
 )
@@ -370,11 +372,11 @@ File: pgfsys-dvipdfmx.def 2021/05/15 v3.1.9a (3.1.9a)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-pdf.def
 File: pgfsys-common-pdf.def 2021/05/15 v3.1.9a (3.1.9a)
 )
-\pgfsys@objnum=\count302
+\pgfsys@objnum=\count297
 )) (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.tex
 File: pgfsyssoftpath.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgfsyssoftpath@smallbuffer@items=\count303
-\pgfsyssoftpath@bigbuffer@items=\count304
+\pgfsyssoftpath@smallbuffer@items=\count298
+\pgfsyssoftpath@bigbuffer@items=\count299
 ) (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code.tex
 File: pgfsysprotocol.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 )) (/usr/share/texlive/texmf-dist/tex/latex/xcolor/xcolor.sty
@@ -397,52 +399,52 @@ Package xcolor Info: Model `wave' substituted by `hsb' on input line 1375.
 ) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
 Package: pgfcore 2021/05/15 v3.1.9a (3.1.9a)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
-\pgfmath@dimen=\dimen260
-\pgfmath@count=\count305
-\pgfmath@box=\box133
-\pgfmath@toks=\toks35
-\pgfmath@stack@operand=\toks36
-\pgfmath@stack@operation=\toks37
+\pgfmath@dimen=\dimen263
+\pgfmath@count=\count300
+\pgfmath@box=\box131
+\pgfmath@toks=\toks34
+\pgfmath@stack@operand=\toks35
+\pgfmath@stack@operation=\toks36
 ) (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.tex (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigonometric.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.random.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.comparison.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerarithmetics.code.tex))) (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
-\c@pgfmathroundto@lastzeros=\count306
+\c@pgfmathroundto@lastzeros=\count301
 )) (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfint.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.tex
 File: pgfcorepoints.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgf@picminx=\dimen261
-\pgf@picmaxx=\dimen262
-\pgf@picminy=\dimen263
-\pgf@picmaxy=\dimen264
-\pgf@pathminx=\dimen265
-\pgf@pathmaxx=\dimen266
-\pgf@pathminy=\dimen267
-\pgf@pathmaxy=\dimen268
-\pgf@xx=\dimen269
-\pgf@xy=\dimen270
-\pgf@yx=\dimen271
-\pgf@yy=\dimen272
-\pgf@zx=\dimen273
-\pgf@zy=\dimen274
+\pgf@picminx=\dimen264
+\pgf@picmaxx=\dimen265
+\pgf@picminy=\dimen266
+\pgf@picmaxy=\dimen267
+\pgf@pathminx=\dimen268
+\pgf@pathmaxx=\dimen269
+\pgf@pathminy=\dimen270
+\pgf@pathmaxy=\dimen271
+\pgf@xx=\dimen272
+\pgf@xy=\dimen273
+\pgf@yx=\dimen274
+\pgf@yy=\dimen275
+\pgf@zx=\dimen276
+\pgf@zy=\dimen277
 ) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconstruct.code.tex
 File: pgfcorepathconstruct.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgf@path@lastx=\dimen275
-\pgf@path@lasty=\dimen276
+\pgf@path@lastx=\dimen278
+\pgf@path@lasty=\dimen279
 ) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage.code.tex
 File: pgfcorepathusage.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgf@shorten@end@additional=\dimen277
-\pgf@shorten@start@additional=\dimen278
+\pgf@shorten@end@additional=\dimen280
+\pgf@shorten@start@additional=\dimen281
 ) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.code.tex
 File: pgfcorescopes.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgfpic=\box134
-\pgf@hbox=\box135
-\pgf@layerbox@main=\box136
-\pgf@picture@serial@count=\count307
+\pgfpic=\box132
+\pgf@hbox=\box133
+\pgf@layerbox@main=\box134
+\pgf@picture@serial@count=\count302
 ) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.code.tex
 File: pgfcoregraphicstate.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgflinewidth=\dimen279
+\pgflinewidth=\dimen282
 ) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransformations.code.tex
 File: pgfcoretransformations.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgf@pt@x=\dimen280
-\pgf@pt@y=\dimen281
-\pgf@pt@temp=\dimen282
+\pgf@pt@x=\dimen283
+\pgf@pt@y=\dimen284
+\pgf@pt@temp=\dimen285
 ) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.code.tex
 File: pgfcorequick.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 ) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobjects.code.tex
@@ -451,17 +453,17 @@ File: pgfcoreobjects.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 File: pgfcorepathprocessing.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 ) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.code.tex
 File: pgfcorearrows.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgfarrowsep=\dimen283
+\pgfarrowsep=\dimen286
 ) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
 File: pgfcoreshade.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgf@max=\dimen284
-\pgf@sys@shading@range@num=\count308
-\pgf@shadingcount=\count309
+\pgf@max=\dimen287
+\pgf@sys@shading@range@num=\count303
+\pgf@shadingcount=\count304
 ) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
 File: pgfcoreimage.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.code.tex
 File: pgfcoreexternal.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgfexternal@startupbox=\box137
+\pgfexternal@startupbox=\box135
 )) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.code.tex
 File: pgfcorelayers.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 ) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransparency.code.tex
@@ -475,39 +477,99 @@ Package: pxpgfmark 2013/02/18 v0.1
 Package pxpgfmark Info: Position marking enabled on input line 15.
 ) (/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.code.tex
 File: pgfmoduleshapes.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgfnodeparttextbox=\box138
+\pgfnodeparttextbox=\box136
 ) (/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.tex
 File: pgfmoduleplot.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 ) (/usr/share/texlive/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-0-65.sty
 Package: pgfcomp-version-0-65 2021/05/15 v3.1.9a (3.1.9a)
-\pgf@nodesepstart=\dimen285
-\pgf@nodesepend=\dimen286
+\pgf@nodesepstart=\dimen288
+\pgf@nodesepend=\dimen289
 ) (/usr/share/texlive/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-1-18.sty
 Package: pgfcomp-version-1-18 2021/05/15 v3.1.9a (3.1.9a)
-)) (/usr/share/texlive/texmf-dist/tex/latex/tools/verbatim.sty
+)) (/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgffor.sty (/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex)) (/usr/share/texlive/texmf-dist/tex/latex/pgf/math/pgfmath.sty (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)) (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
+Package: pgffor 2021/05/15 v3.1.9a (3.1.9a)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)
+\pgffor@iter=\dimen290
+\pgffor@skip=\dimen291
+\pgffor@stack=\toks37
+\pgffor@toks=\toks38
+)) (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
+Package: tikz 2021/05/15 v3.1.9a (3.1.9a)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers.code.tex
+File: pgflibraryplothandlers.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@plot@mark@count=\count305
+\pgfplotmarksize=\dimen292
+)
+\tikz@lastx=\dimen293
+\tikz@lasty=\dimen294
+\tikz@lastxsaved=\dimen295
+\tikz@lastysaved=\dimen296
+\tikz@lastmovetox=\dimen297
+\tikz@lastmovetoy=\dimen298
+\tikzleveldistance=\dimen299
+\tikzsiblingdistance=\dimen300
+\tikz@figbox=\box137
+\tikz@figbox@bg=\box138
+\tikz@tempbox=\box139
+\tikz@tempbox@bg=\box140
+\tikztreelevel=\count306
+\tikznumberofchildren=\count307
+\tikznumberofcurrentchild=\count308
+\tikz@fig@count=\count309
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex
+File: pgfmodulematrix.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgfmatrixcurrentrow=\count310
+\pgfmatrixcurrentcolumn=\count311
+\pgf@matrix@numberofcolumns=\count312
+)
+\tikz@expandcount=\count313
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarytopaths.code.tex
+File: tikzlibrarytopaths.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+))) (/usr/share/texlive/texmf-dist/tex/latex/listings/listings.sty
+\lst@mode=\count314
+\lst@gtempboxa=\box141
+\lst@token=\toks39
+\lst@length=\count315
+\lst@currlwidth=\dimen301
+\lst@column=\count316
+\lst@pos=\count317
+\lst@lostspace=\dimen302
+\lst@width=\dimen303
+\lst@newlines=\count318
+\lst@lineno=\count319
+\lst@maxwidth=\dimen304
+(/usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2020/03/24 1.8d (Carsten Heinz)
+\c@lstnumber=\count320
+\lst@skipnumbers=\count321
+\lst@framebox=\box142
+) (/usr/share/texlive/texmf-dist/tex/latex/listings/listings.cfg
+File: listings.cfg 2020/03/24 1.8d listings configuration
+))
+Package: listings 2020/03/24 1.8d (Carsten Heinz)
+(/usr/share/texlive/texmf-dist/tex/latex/tcolorbox/tcolorbox.sty
+Package: tcolorbox 2022/01/07 version 5.0.2 text color boxes
+(/usr/share/texlive/texmf-dist/tex/latex/tools/verbatim.sty
 Package: verbatim 2020-07-07 v1.5u LaTeX2e package for verbatim enhancements
-\every@verbatim=\toks38
-\verbatim@line=\toks39
+\every@verbatim=\toks40
+\verbatim@line=\toks41
 \verbatim@in@stream=\read3
 ) (/usr/share/texlive/texmf-dist/tex/latex/environ/environ.sty
 Package: environ 2014/05/04 v0.3 A new way to define environments
 (/usr/share/texlive/texmf-dist/tex/latex/trimspaces/trimspaces.sty
 Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
-)) (/usr/share/texlive/texmf-dist/tex/latex/etoolbox/etoolbox.sty
-Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count310
-)
-\tcb@titlebox=\box139
-\tcb@upperbox=\box140
-\tcb@lowerbox=\box141
-\tcb@phantombox=\box142
-\c@tcbbreakpart=\count311
-\c@tcblayer=\count312
-\c@tcolorbox@number=\count313
-\tcb@temp=\box143
-\tcb@temp=\box144
-\tcb@temp=\box145
-\tcb@temp=\box146
+))
+\tcb@titlebox=\box143
+\tcb@upperbox=\box144
+\tcb@lowerbox=\box145
+\tcb@phantombox=\box146
+\c@tcbbreakpart=\count322
+\c@tcblayer=\count323
+\c@tcolorbox@number=\count324
+\tcb@temp=\box147
+\tcb@temp=\box148
+\tcb@temp=\box149
+\tcb@temp=\box150
 ) (/usr/share/texlive/texmf-dist/tex/latex/tcolorbox/tcblistingsutf8.code.tex
 Library (tcolorbox): 'tcblistingsutf8.code.tex' version '5.0.2'
 (/usr/share/texlive/texmf-dist/tex/latex/tcolorbox/tcblistings.code.tex
@@ -532,22 +594,22 @@ Package pdftexcmds Info: \pdfdraftmode not found.
 Package: shellesc 2019/11/08 v1.0c unified shell escape interface for LaTeX
 Package shellesc Info: Restricted shell escape enabled on input line 77.
 ))
-\c@tcblisting=\count314
+\c@tcblisting=\count325
 ))
 Package tcolorbox Info: Library `listingsutf8' is compatible with pdftex only. Library `listings` is loaded instead. on input line 29.
 )
-LaTeX Font Info:    Trying to load font information for T1+lmr on input line 28.
+LaTeX Font Info:    Trying to load font information for T1+lmr on input line 36.
 (/usr/share/texmf/tex/latex/lm/t1lmr.fd
 File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 ) (/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-dvips.def
 File: l3backend-dvips.def 2022-01-12 L3 backend support: dvips
-\l__pdf_internal_box=\box147
-\g__pdf_backend_object_int=\count315
-\l__pdf_backend_content_box=\box148
-\l__pdf_backend_model_box=\box149
-\g__pdf_backend_annotation_int=\count316
-\g__pdf_backend_link_int=\count317
-\g__pdf_backend_link_sf_int=\count318
+\l__pdf_internal_box=\box151
+\g__pdf_backend_object_int=\count326
+\l__pdf_backend_content_box=\box152
+\l__pdf_backend_model_box=\box153
+\g__pdf_backend_annotation_int=\count327
+\g__pdf_backend_link_int=\count328
+\g__pdf_backend_link_sf_int=\count329
 )
 
 LaTeX Warning: Unused global option(s):
@@ -556,25 +618,28 @@ LaTeX Warning: Unused global option(s):
 (out/main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for JY1/mc/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for JT1/mc/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-\c@lstlisting=\count319
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for JY1/mc/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for JT1/mc/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: listings package is loaded.
+Package caption Info: End \AtBeginDocument code.
+\c@lstlisting=\count330
 (./cover.tex
 LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 6.
 (/usr/share/texmf/tex/latex/lm/ot1lmr.fd
@@ -665,218 +730,89 @@ LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
 
 ]
 LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
-(Font)              scaled to size 19.9311pt on input line 50.
+(Font)              scaled to size 19.9311pt on input line 58.
 LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
-(Font)              scaled to size 19.9311pt on input line 50.
+(Font)              scaled to size 19.9311pt on input line 58.
 LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <20.74> not available
-(Font)              Font shape `JT1/gt/m/n' tried instead on input line 50.
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 58.
 LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
-(Font)              scaled to size 19.9311pt on input line 50.
+(Font)              scaled to size 19.9311pt on input line 58.
 LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <20.74> not available
-(Font)              Font shape `JY1/gt/m/n' tried instead on input line 50.
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 58.
 LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
-(Font)              scaled to size 19.9311pt on input line 50.
-(./part20.tex
-File: sozai/touritu.pdf Graphic file (type pdf)
-<sozai/touritu.pdf>
-[1]
-File: sozai/encordertokaunnta.pdf Graphic file (type pdf)
-<sozai/encordertokaunnta.pdf>
-File: sozai/DCmotaADhenkan.pdf Graphic file (type pdf)
-<sozai/DCmotaADhenkan.pdf>
-[2]
-File: sozai/ro-pasufiruta.pdf Graphic file (type pdf)
-<sozai/ro-pasufiruta.pdf>
-[3]
-LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 89.
-(/usr/share/texmf/tex/latex/lm/ts1lmr.fd
-File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)
-LaTeX Font Info:    Trying to load font information for T1+lmss on input line 101.
-(/usr/share/texmf/tex/latex/lm/t1lmss.fd
-File: t1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)
-Underfull \hbox (badness 2073) in paragraph at lines 102--106
-[] \JY1/mc/m/n/10 振子側のロ ータリエンコ ーダとカウンタの動作確認をする別紙 「 補足事項\T1/lmr/m/n/10 :QusRC \JY1/mc/m/n/10 の使
- []
-
-
-Underfull \hbox (badness 2073) in paragraph at lines 102--106
-\JY1/mc/m/n/10 用方法 」 を参考にして , 図 \T1/lmr/m/n/10 A.1 \JY1/mc/m/n/10 の \T1/lmr/m/n/10 Simulink \JY1/mc/m/n/10 モデル\T1/lmr/m/n/10 "pend_count.slx"\JY1/mc/m/n/10 を作成し , デ ィレクトリ
- []
-
-File: sozai/shinnshinokakudohenni.pdf Graphic file (type pdf)
-<sozai/shinnshinokakudohenni.pdf>
-File: sozai/theta_relation.pdf Graphic file (type pdf)
-<sozai/theta_relation.pdf>
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 144--154
-[]\JY1/mc/m/n/10 図 \T1/lmr/m/n/10 A.2 \JY1/mc/m/n/10 の \T1/lmr/m/n/10 Simulink \JY1/mc/m/n/10 モデル \T1/lmr/m/n/10 "pend_count2.slx" \JY1/mc/m/n/10 を作成し , 振子を時計回りに \T1/lmr/m/n/10 1 \JY1/mc/m/n/10 回
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 144--154
-\JY1/mc/m/n/10 転したとき測定値が \T1/lmr/m/n/10 2$\OML/lmm/m/it/10 ^^Y$\T1/lmr/m/n/10 [rad](360[deg]) \JY1/mc/m/n/10 となるようにする \T1/lmr/m/n/10 ("pend_count2.slx" \JY1/mc/m/n/10 は
- []
-
-[4]
-LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
-(Font)              scaled to size 6.72699pt on input line 166.
-LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
-(Font)              scaled to size 4.805pt on input line 166.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 196.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 196.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 196.
-LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
-(Font)              scaled to size 5.76599pt on input line 196.
-LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
-(Font)              scaled to size 7.68799pt on input line 196.
-LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
-(Font)              scaled to size 5.76599pt on input line 196.
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[5]
-File: sozai/pendcount3.pdf Graphic file (type pdf)
-<sozai/pendcount3.pdf>
-[6]
-File: sozai/daisyanoichihenni.pdf Graphic file (type pdf)
-<sozai/daisyanoichihenni.pdf>
-[7] [8]
-Underfull \vbox (badness 3872) has occurred while \output is active []
-
-[9]
-Underfull \hbox (badness 10000) in paragraph at lines 450--454
-[]\JY1/mc/m/n/10 と設定し , 書き保存する ． また , ビルドしてエラ ーがないことを確認した
- []
-
-File: sozai/3.pdf Graphic file (type pdf)
-<sozai/3.pdf>
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[10]
-File: sozai/4.pdf Graphic file (type pdf)
-<sozai/4.pdf>
-
-Overfull \hbox (27.1569pt too wide) in paragraph at lines 503--504
- [][] 
- []
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-) [11] (./part21.tex
+(Font)              scaled to size 19.9311pt on input line 58.
+(./part10.tex
 File: sozai/1.pdf Graphic file (type pdf)
 <sozai/1.pdf>
-[12]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Underfull \vbox (badness 5622) has occurred while \output is active []
+
+[1] [2]
+LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
+(Font)              scaled to size 6.72699pt on input line 114.
+LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
+(Font)              scaled to size 4.805pt on input line 114.
+[3] [4] [5]
 File: sozai/2.pdf Graphic file (type pdf)
 <sozai/2.pdf>
-[13] [14] [15] [16]
-File: sozai/51.pdf Graphic file (type pdf)
-<sozai/51.pdf>
+[6]
+File: sozai/4.pdf Graphic file (type pdf)
+<sozai/4.pdf>
+[7]
+File: sozai/5.pdf Graphic file (type pdf)
+<sozai/5.pdf>
+[8]
+File: sozai/3.pdf Graphic file (type pdf)
+<sozai/3.pdf>
+[9]) [10] (./part11.tex
+Overfull \hbox (101.13014pt too wide) in paragraph at lines 31--44
+ [][][][] 
+ []
 
-LaTeX Warning: `h' float specifier changed to `ht'.
 
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-File: sozai/52.pdf Graphic file (type pdf)
-<sozai/52.pdf>
-
-Overfull \hbox (13.1594pt too wide) in paragraph at lines 407--408
- [][] 
+Overfull \hbox (107.24127pt too wide) in paragraph at lines 49--62
+ [][][][] 
  []
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[17]
 
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
+Overfull \hbox (98.90791pt too wide) in paragraph at lines 67--80
+ [][][][] 
+ []
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-File: sozai/53.pdf Graphic file (type pdf)
-<sozai/53.pdf>
+[11] [12]
+Overfull \hbox (34.52953pt too wide) in paragraph at lines 113--124
+ [][][][] 
+ []
 
-LaTeX Warning: `h' float specifier changed to `ht'.
+[13]) [14] (./ref.tex) [15]
 
-[18] [19]
-File: sozai/6.pdf Graphic file (type pdf)
-<sozai/6.pdf>
+! LaTeX Error: File `appendix.tex' not found.
 
-LaTeX Warning: `h' float specifier changed to `ht'.
+Type X to quit or <RETURN> to proceed,
+or enter new name. (Default extension: tex)
 
-File: sozai/7.pdf Graphic file (type pdf)
-<sozai/7.pdf>
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[20]
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[21]
-File: sozai/8.pdf Graphic file (type pdf)
-<sozai/8.pdf>
-File: sozai/9.pdf Graphic file (type pdf)
-<sozai/9.pdf>
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-[22] [23]
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[24]
-File: sozai/11.pdf Graphic file (type pdf)
-<sozai/11.pdf>
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-File: sozai/10.pdf Graphic file (type pdf)
-<sozai/10.pdf>
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[25] [26] [27]) [28] (./ref.tex) [29]
-***** List of packages loaded by `plautopatch': *****
- plarray, pxmulticol, pxpgfrcs, pxpgfmark.
-*****************************************************
-(out/main.aux) ) 
+Enter file name: 
+/home/altair/5th_year_report_assignment/絎�薑�5_ver1/main.tex:77: Emergency stop.
+<read *> 
+         
+l.77 \input{appendix.tex}
+                          \newpage^^M 
 Here is how much of TeX's memory you used:
- 16323 strings out of 478741
- 317478 string characters out of 5860982
- 590635 words of memory out of 5000000
- 34366 multiletter control sequences out of 15000+600000
- 569753 words of font info for 146 fonts, out of 8000000 for 9000
+ 19546 strings out of 478741
+ 394533 string characters out of 5860982
+ 665639 words of memory out of 5000000
+ 37585 multiletter control sequences out of 15000+600000
+ 537147 words of font info for 113 fonts, out of 8000000 for 9000
  934 hyphenation exceptions out of 8191
- 83i,13n,89p,630b,1230s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 84i,16n,89p,569b,355s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on out/main.dvi (30 pages, 122724 bytes).
+Output written on out/main.dvi (16 pages, 65836 bytes).

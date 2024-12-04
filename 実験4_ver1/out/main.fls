@@ -895,6 +895,34 @@ INPUT ./part11.tex
 INPUT part11.tex
 INPUT ./part11.tex
 INPUT part11.tex
+INPUT ./sozai/6.pdf
+INPUT ./sozai/6.pdf
+INPUT sozai/6.pdf
+INPUT extractbb -B cropbox -O sozai/6.pdf
+INPUT ./sozai/7.pdf
+INPUT ./sozai/7.pdf
+INPUT sozai/7.pdf
+INPUT extractbb -B cropbox -O sozai/7.pdf
+INPUT ./sozai/8.pdf
+INPUT ./sozai/8.pdf
+INPUT sozai/8.pdf
+INPUT extractbb -B cropbox -O sozai/8.pdf
+INPUT ./sozai/9.pdf
+INPUT ./sozai/9.pdf
+INPUT sozai/9.pdf
+INPUT extractbb -B cropbox -O sozai/9.pdf
+INPUT ./sozai/10.pdf
+INPUT ./sozai/10.pdf
+INPUT sozai/10.pdf
+INPUT extractbb -B cropbox -O sozai/10.pdf
+INPUT ./sozai/11.pdf
+INPUT ./sozai/11.pdf
+INPUT sozai/11.pdf
+INPUT extractbb -B cropbox -O sozai/11.pdf
+INPUT ./sozai/12.pdf
+INPUT ./sozai/12.pdf
+INPUT sozai/12.pdf
+INPUT extractbb -B cropbox -O sozai/12.pdf
 INPUT ./ref.tex
 INPUT ref.tex
 INPUT ./ref.tex

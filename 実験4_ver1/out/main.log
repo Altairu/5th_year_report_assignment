@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.141592653-p3.9.1-210218-2.6 (utf8.euc) (TeX Live 2022/dev/Debian) (preloaded format=platex 2024.3.16)  29 NOV 2024 03:35
+This is e-pTeX, Version 3.141592653-p3.9.1-210218-2.6 (utf8.euc) (TeX Live 2022/dev/Debian) (preloaded format=platex 2024.3.16)  5 DEC 2024 01:12
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -762,18 +762,41 @@ File: sozai/4.pdf Graphic file (type pdf)
 [5] [6]
 File: sozai/5.pdf Graphic file (type pdf)
 <sozai/5.pdf>
-[7]) [8] (./part11.tex) (./ref.tex) [9]
+[7]) [8] (./part11.tex
+File: sozai/6.pdf Graphic file (type pdf)
+<sozai/6.pdf>
+File: sozai/7.pdf Graphic file (type pdf)
+<sozai/7.pdf>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[9]
+File: sozai/8.pdf Graphic file (type pdf)
+<sozai/8.pdf>
+File: sozai/9.pdf Graphic file (type pdf)
+<sozai/9.pdf>
+File: sozai/10.pdf Graphic file (type pdf)
+<sozai/10.pdf>
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[10]
+File: sozai/11.pdf Graphic file (type pdf)
+<sozai/11.pdf>
+File: sozai/12.pdf Graphic file (type pdf)
+<sozai/12.pdf>
+[11]) [12] (./ref.tex) [13]
 ***** List of packages loaded by `plautopatch': *****
  plarray, pxmulticol, pxpgfrcs, pxpgfmark.
 *****************************************************
 (out/main.aux) ) 
 Here is how much of TeX's memory you used:
- 19611 strings out of 478741
- 396027 string characters out of 5860982
+ 19646 strings out of 478741
+ 396560 string characters out of 5860982
  660638 words of memory out of 5000000
- 37642 multiletter control sequences out of 15000+600000
+ 37670 multiletter control sequences out of 15000+600000
  533931 words of font info for 111 fonts, out of 8000000 for 9000
  934 hyphenation exceptions out of 8191
  84i,9n,89p,455b,355s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on out/main.dvi (10 pages, 40500 bytes).
+Output written on out/main.dvi (14 pages, 50224 bytes).

@@ -871,6 +871,10 @@ INPUT /usr/share/texmf/tex/latex/lm/t1lmss.fd
 INPUT /usr/share/texmf/tex/latex/lm/t1lmss.fd
 INPUT /usr/share/texmf/tex/latex/lm/t1lmss.fd
 INPUT /usr/share/texmf/fonts/tfm/public/lm/ec-lmss10.tfm
+INPUT ./sozai/13.pdf
+INPUT ./sozai/13.pdf
+INPUT sozai/13.pdf
+INPUT extractbb -B cropbox -O sozai/13.pdf
 INPUT ./sozai/1_compressed.pdf
 INPUT ./sozai/1_compressed.pdf
 INPUT sozai/1_compressed.pdf

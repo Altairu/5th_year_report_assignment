@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.141592653-p3.9.1-210218-2.6 (utf8.euc) (TeX Live 2022/dev/Debian) (preloaded format=platex 2024.3.16)  5 DEC 2024 01:12
+This is e-pTeX, Version 3.141592653-p3.9.1-210218-2.6 (utf8.euc) (TeX Live 2022/dev/Debian) (preloaded format=platex 2024.3.16)  6 DEC 2024 08:42
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -749,20 +749,24 @@ File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 LaTeX Font Info:    Trying to load font information for T1+lmss on input line 71.
 (/usr/share/texmf/tex/latex/lm/t1lmss.fd
 File: t1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
-) [2] [3]
+) [2]
+File: sozai/13.pdf Graphic file (type pdf)
+<sozai/13.pdf>
+[3]
 File: sozai/1_compressed.pdf Graphic file (type pdf)
 <sozai/1_compressed.pdf>
+[4]
 File: sozai/2.pdf Graphic file (type pdf)
 <sozai/2.pdf>
-[4]
 File: sozai/3.pdf Graphic file (type pdf)
 <sozai/3.pdf>
+[5]
 File: sozai/4.pdf Graphic file (type pdf)
 <sozai/4.pdf>
-[5] [6]
+[6] [7]
 File: sozai/5.pdf Graphic file (type pdf)
 <sozai/5.pdf>
-[7]) [8] (./part11.tex
+[8]) [9] (./part11.tex
 File: sozai/6.pdf Graphic file (type pdf)
 <sozai/6.pdf>
 File: sozai/7.pdf Graphic file (type pdf)
@@ -770,7 +774,7 @@ File: sozai/7.pdf Graphic file (type pdf)
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[9]
+[10]
 File: sozai/8.pdf Graphic file (type pdf)
 <sozai/8.pdf>
 File: sozai/9.pdf Graphic file (type pdf)
@@ -780,23 +784,23 @@ File: sozai/10.pdf Graphic file (type pdf)
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-[10]
+[11]
 File: sozai/11.pdf Graphic file (type pdf)
 <sozai/11.pdf>
 File: sozai/12.pdf Graphic file (type pdf)
 <sozai/12.pdf>
-[11]) [12] (./ref.tex) [13]
+[12]) [13] (./ref.tex) [14]
 ***** List of packages loaded by `plautopatch': *****
  plarray, pxmulticol, pxpgfrcs, pxpgfmark.
 *****************************************************
 (out/main.aux) ) 
 Here is how much of TeX's memory you used:
- 19646 strings out of 478741
- 396560 string characters out of 5860982
- 660638 words of memory out of 5000000
- 37670 multiletter control sequences out of 15000+600000
+ 19651 strings out of 478741
+ 396639 string characters out of 5860982
+ 660639 words of memory out of 5000000
+ 37674 multiletter control sequences out of 15000+600000
  533931 words of font info for 111 fonts, out of 8000000 for 9000
  934 hyphenation exceptions out of 8191
  84i,9n,89p,455b,355s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on out/main.dvi (14 pages, 50224 bytes).
+Output written on out/main.dvi (15 pages, 50740 bytes).

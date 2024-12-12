@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.141592653-p3.9.1-210218-2.6 (utf8.euc) (TeX Live 2022/dev/Debian) (preloaded format=platex 2024.3.16)  6 DEC 2024 08:42
+This is e-pTeX, Version 3.141592653-p3.9.1-210218-2.6 (utf8.euc) (TeX Live 2022/dev/Debian) (preloaded format=platex 2024.3.16)  12 DEC 2024 15:59
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -763,10 +763,108 @@ File: sozai/3.pdf Graphic file (type pdf)
 [5]
 File: sozai/4.pdf Graphic file (type pdf)
 <sozai/4.pdf>
-[6] [7]
+[6]
+File: sozai/1_compressed.pdf Graphic file (type pdf)
+<sozai/1_compressed.pdf>
+File: sozai/14.pdf Graphic file (type pdf)
+<sozai/14.pdf>
+File: sozai/2.pdf Graphic file (type pdf)
+<sozai/2.pdf>
+[7]
+File: sozai/15.pdf Graphic file (type pdf)
+<sozai/15.pdf>
+[8]
+File: sozai/16.pdf Graphic file (type pdf)
+<sozai/16.pdf>
+File: sozai/3.pdf Graphic file (type pdf)
+<sozai/3.pdf>
+[9]
+File: sozai/17.pdf Graphic file (type pdf)
+<sozai/17.pdf>
+File: sozai/4.pdf Graphic file (type pdf)
+<sozai/4.pdf>
+[10]
+File: sozai/18.pdf Graphic file (type pdf)
+<sozai/18.pdf>
+File: sozai/19.pdf Graphic file (type pdf)
+<sozai/19.pdf>
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[11]
+File: sozai/20.pdf Graphic file (type pdf)
+<sozai/20.pdf>
+[12] [13]
 File: sozai/5.pdf Graphic file (type pdf)
 <sozai/5.pdf>
-[8]) [9] (./part11.tex
+[14]
+File: sozai/5.pdf Graphic file (type pdf)
+<sozai/5.pdf>
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[15]
+File: sozai/2-1-crop.pdf Graphic file (type pdf)
+<sozai/2-1-crop.pdf>
+
+Overfull \hbox (12.15564pt too wide) in paragraph at lines 630--631
+ [][] 
+ []
+
+File: sozai/2-2-crop.pdf Graphic file (type pdf)
+<sozai/2-2-crop.pdf>
+
+Overfull \hbox (12.15564pt too wide) in paragraph at lines 646--647
+ [][] 
+ []
+
+[16]
+File: sozai/2-3-crop.pdf Graphic file (type pdf)
+<sozai/2-3-crop.pdf>
+
+Overfull \hbox (12.15564pt too wide) in paragraph at lines 662--663
+ [][] 
+ []
+
+[17]
+File: sozai/2-4-crop.pdf Graphic file (type pdf)
+<sozai/2-4-crop.pdf>
+
+Overfull \hbox (12.15564pt too wide) in paragraph at lines 681--682
+ [][] 
+ []
+
+File: sozai/2-5-crop.pdf Graphic file (type pdf)
+<sozai/2-5-crop.pdf>
+
+Overfull \hbox (12.15564pt too wide) in paragraph at lines 702--703
+ [][] 
+ []
+
+[18]
+File: sozai/2-6-crop.pdf Graphic file (type pdf)
+<sozai/2-6-crop.pdf>
+
+Overfull \hbox (12.15564pt too wide) in paragraph at lines 718--719
+ [][] 
+ []
+
+File: sozai/2-7-crop.pdf Graphic file (type pdf)
+<sozai/2-7-crop.pdf>
+
+Overfull \hbox (12.15564pt too wide) in paragraph at lines 737--738
+ [][] 
+ []
+
+[19]
+File: sozai/2-8-crop.pdf Graphic file (type pdf)
+<sozai/2-8-crop.pdf>
+
+Overfull \hbox (12.15564pt too wide) in paragraph at lines 759--760
+ [][] 
+ []
+
+) [20] (./part11.tex
 File: sozai/6.pdf Graphic file (type pdf)
 <sozai/6.pdf>
 File: sozai/7.pdf Graphic file (type pdf)
@@ -774,7 +872,7 @@ File: sozai/7.pdf Graphic file (type pdf)
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[10]
+[21]
 File: sozai/8.pdf Graphic file (type pdf)
 <sozai/8.pdf>
 File: sozai/9.pdf Graphic file (type pdf)
@@ -784,23 +882,53 @@ File: sozai/10.pdf Graphic file (type pdf)
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-[11]
+[22]
 File: sozai/11.pdf Graphic file (type pdf)
 <sozai/11.pdf>
 File: sozai/12.pdf Graphic file (type pdf)
 <sozai/12.pdf>
-[12]) [13] (./ref.tex) [14]
+[23]
+File: sozai/3-1-crop.pdf Graphic file (type pdf)
+<sozai/3-1-crop.pdf>
+
+Overfull \hbox (12.15564pt too wide) in paragraph at lines 117--118
+ [][] 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[24]
+File: sozai/12.pdf Graphic file (type pdf)
+<sozai/12.pdf>
+File: sozai/3-2-crop.pdf Graphic file (type pdf)
+<sozai/3-2-crop.pdf>
+
+Overfull \hbox (12.15564pt too wide) in paragraph at lines 142--143
+ [][] 
+ []
+
+
+Underfull \vbox (badness 1147) has occurred while \output is active []
+
+[25]
+File: sozai/3-3-crop.pdf Graphic file (type pdf)
+<sozai/3-3-crop.pdf>
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[26] [27]) [28] (./ref.tex) [29]
 ***** List of packages loaded by `plautopatch': *****
  plarray, pxmulticol, pxpgfrcs, pxpgfmark.
 *****************************************************
 (out/main.aux) ) 
 Here is how much of TeX's memory you used:
- 19651 strings out of 478741
- 396639 string characters out of 5860982
+ 19741 strings out of 478741
+ 398391 string characters out of 5860982
  660639 words of memory out of 5000000
- 37674 multiletter control sequences out of 15000+600000
+ 37746 multiletter control sequences out of 15000+600000
  533931 words of font info for 111 fonts, out of 8000000 for 9000
  934 hyphenation exceptions out of 8191
- 84i,9n,89p,455b,355s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 84i,9n,89p,455b,403s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on out/main.dvi (15 pages, 50740 bytes).
+Output written on out/main.dvi (30 pages, 98776 bytes).

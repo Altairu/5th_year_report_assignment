@@ -891,10 +891,85 @@ INPUT ./sozai/4.pdf
 INPUT ./sozai/4.pdf
 INPUT sozai/4.pdf
 INPUT extractbb -B cropbox -O sozai/4.pdf
+INPUT ./sozai/1_compressed.pdf
+INPUT ./sozai/1_compressed.pdf
+INPUT sozai/1_compressed.pdf
+INPUT ./sozai/14.pdf
+INPUT ./sozai/14.pdf
+INPUT sozai/14.pdf
+INPUT extractbb -B cropbox -O sozai/14.pdf
+INPUT ./sozai/2.pdf
+INPUT ./sozai/2.pdf
+INPUT sozai/2.pdf
+INPUT ./sozai/15.pdf
+INPUT ./sozai/15.pdf
+INPUT sozai/15.pdf
+INPUT extractbb -B cropbox -O sozai/15.pdf
+INPUT ./sozai/16.pdf
+INPUT ./sozai/16.pdf
+INPUT sozai/16.pdf
+INPUT extractbb -B cropbox -O sozai/16.pdf
+INPUT ./sozai/3.pdf
+INPUT ./sozai/3.pdf
+INPUT sozai/3.pdf
+INPUT ./sozai/17.pdf
+INPUT ./sozai/17.pdf
+INPUT sozai/17.pdf
+INPUT extractbb -B cropbox -O sozai/17.pdf
+INPUT ./sozai/4.pdf
+INPUT ./sozai/4.pdf
+INPUT sozai/4.pdf
+INPUT ./sozai/18.pdf
+INPUT ./sozai/18.pdf
+INPUT sozai/18.pdf
+INPUT extractbb -B cropbox -O sozai/18.pdf
+INPUT ./sozai/19.pdf
+INPUT ./sozai/19.pdf
+INPUT sozai/19.pdf
+INPUT extractbb -B cropbox -O sozai/19.pdf
+INPUT ./sozai/20.pdf
+INPUT ./sozai/20.pdf
+INPUT sozai/20.pdf
+INPUT extractbb -B cropbox -O sozai/20.pdf
 INPUT ./sozai/5.pdf
 INPUT ./sozai/5.pdf
 INPUT sozai/5.pdf
 INPUT extractbb -B cropbox -O sozai/5.pdf
+INPUT ./sozai/5.pdf
+INPUT ./sozai/5.pdf
+INPUT sozai/5.pdf
+INPUT ./sozai/2-1-crop.pdf
+INPUT ./sozai/2-1-crop.pdf
+INPUT sozai/2-1-crop.pdf
+INPUT extractbb -B cropbox -O sozai/2-1-crop.pdf
+INPUT ./sozai/2-2-crop.pdf
+INPUT ./sozai/2-2-crop.pdf
+INPUT sozai/2-2-crop.pdf
+INPUT extractbb -B cropbox -O sozai/2-2-crop.pdf
+INPUT ./sozai/2-3-crop.pdf
+INPUT ./sozai/2-3-crop.pdf
+INPUT sozai/2-3-crop.pdf
+INPUT extractbb -B cropbox -O sozai/2-3-crop.pdf
+INPUT ./sozai/2-4-crop.pdf
+INPUT ./sozai/2-4-crop.pdf
+INPUT sozai/2-4-crop.pdf
+INPUT extractbb -B cropbox -O sozai/2-4-crop.pdf
+INPUT ./sozai/2-5-crop.pdf
+INPUT ./sozai/2-5-crop.pdf
+INPUT sozai/2-5-crop.pdf
+INPUT extractbb -B cropbox -O sozai/2-5-crop.pdf
+INPUT ./sozai/2-6-crop.pdf
+INPUT ./sozai/2-6-crop.pdf
+INPUT sozai/2-6-crop.pdf
+INPUT extractbb -B cropbox -O sozai/2-6-crop.pdf
+INPUT ./sozai/2-7-crop.pdf
+INPUT ./sozai/2-7-crop.pdf
+INPUT sozai/2-7-crop.pdf
+INPUT extractbb -B cropbox -O sozai/2-7-crop.pdf
+INPUT ./sozai/2-8-crop.pdf
+INPUT ./sozai/2-8-crop.pdf
+INPUT sozai/2-8-crop.pdf
+INPUT extractbb -B cropbox -O sozai/2-8-crop.pdf
 INPUT ./part11.tex
 INPUT part11.tex
 INPUT ./part11.tex
@@ -927,6 +1002,21 @@ INPUT ./sozai/12.pdf
 INPUT ./sozai/12.pdf
 INPUT sozai/12.pdf
 INPUT extractbb -B cropbox -O sozai/12.pdf
+INPUT ./sozai/3-1-crop.pdf
+INPUT ./sozai/3-1-crop.pdf
+INPUT sozai/3-1-crop.pdf
+INPUT extractbb -B cropbox -O sozai/3-1-crop.pdf
+INPUT ./sozai/12.pdf
+INPUT ./sozai/12.pdf
+INPUT sozai/12.pdf
+INPUT ./sozai/3-2-crop.pdf
+INPUT ./sozai/3-2-crop.pdf
+INPUT sozai/3-2-crop.pdf
+INPUT extractbb -B cropbox -O sozai/3-2-crop.pdf
+INPUT ./sozai/3-3-crop.pdf
+INPUT ./sozai/3-3-crop.pdf
+INPUT sozai/3-3-crop.pdf
+INPUT extractbb -B cropbox -O sozai/3-3-crop.pdf
 INPUT ./ref.tex
 INPUT ref.tex
 INPUT ./ref.tex
